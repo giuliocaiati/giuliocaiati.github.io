@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+  <meta name="description" content="Giulio's Projects">
+  <meta name="keywords" content="Python,App Project,Story">
+  <meta name="author" content="Giulio Caiati">
+   <meta name="teacher" content="Mr. Landfried">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+	<link rel="shortcut icon" href="/images/favi.ico" type="image/x-icon">
+	</head>
+	<style>
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li active {
+    color: white;
+    background-color: #4CAF50;}
+
+	</style>
+	<body>
+<ul>
+<li><a href="index.html">Home</a></li>
+ <li class="dropdown">
+    <a href="portfolio.html" class="dropbtn">Portfolio</a>
+    <div class="dropdown-content">
+      <a href="/app project.html">App</a>
+      <a href="/Story.html">Story</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+ <li><a href="contact.html">Contact</a></a></li>
+ <li><a href=Aboutme.html>About Me</a></li>
+</ul>
+
+	<h1>video narative </h1>
+		<p> As I could not start up the emulator I will ahve to explain what happens in the project. When you start up the app our branding screen pops up then you press start, and you have to drag the rocket (which makes a launching sound) util you get to the space station then text will apear "You win".If you crash into a asteriod it says "You lost" and a crashing noise happens. As you can tell by our code I worked on making the procedures, yext and noise the rocket makes when it collides with something.
+</p>
+
+<div class="center">
+	<h1>This is Giulio's Android App!</h1>
+	<a href=https://github.com/giuliocaiati/Save-the-Rocket>android app</a>
+	<a href="/Android/STR.aia">aia file</a>
+	<a href="/Android/STR.apk">apk file</a>
+	
+	<video width="400" controls>
+  <source src="/Android/giuliovideo.mp4" type="video/mp4">
+</video>
+
+        <div class="center">
+            
+		<h1>Write Up</h1>
+		<p> In our project Save the rocket there were some problems. One of the problems that we had was that the app was the canvas was stretched out on the emulator so we could not scroll down and move the rocket. We fixed this by making the canvas fill the parent instead of making it longer than the parent. Another problem that we had was that the Rocket kept crashing into the asteroids when it was nowhere near one of the asteroids. To fix this we shrunk the asteroids so that the invisible barrier would not get in the way of the rocket. I personally created the procedure for when you hit the asteroid a crashing sound happens and the notifier you lost pops up. I have also personally added the sound effects for loosing and winning in the program.       
+</p>
+</div>
+	</body>
+	
+</html>
